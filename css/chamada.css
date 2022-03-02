@@ -24,10 +24,18 @@
 .chamada__texto {
     font-size: 1.25rem;
     line-height: normal;
+    max-width: 600px;
 
     margin: 0 auto 2.5rem;
 }
 
 .chamada__botao {
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    /* .chamada__texto{
+        max-width: 600px;
+    } */
+    
 }
